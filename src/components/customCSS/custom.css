@@ -1,0 +1,156 @@
+/* Rectangle 1 */
+
+.App {
+    display: inline
+}
+
+body {
+    /* position: absolute; */
+    width: 100%;
+    height: 350%;
+    background-image: url(./joel-filipe-unsplash-editted.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    z-index: auto;
+    background-position: center top;
+}
+
+h1 {
+    color: white;
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+html {
+    height: 100%
+}
+
+.nav-link {
+    color: white;
+    margin: auto 50px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(50, 50, 50, 0.6);
+}
+
+.intro {
+    display: flex;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    right: 20%;
+    width: 50%;
+    color: white;
+    margin: auto;
+}
+
+img {
+    margin: 3% auto;
+    padding-left: 120px;
+}
+
+.grey-blur {
+    position: absolute;
+    top: 62.5rem;
+    height: 67.5rem;
+    width: 100%;
+    background-color: rgba(99, 99, 99, 0.3);
+}
+
+.journey {
+    text-align: center;
+    margin: 60px auto;
+}
+
+.history-content {
+    display: flex;
+    margin:auto;
+    color: white;
+    width: 65%;
+}
+
+.history-left {
+    text-align: right;
+    margin-right: 10%;
+    width: 50%;
+    height: 80%
+}
+
+.history-right {
+    text-align: left;
+    width: 50%;
+    height: 80%
+}
+
+.timeline {
+    border-left: 4px solid white;
+    top: 19%;
+    height: 65%;
+    position:absolute;
+    left: 50%;
+}
+
+.left-2 {
+    margin-top: 16rem;
+}
+
+.right-1{
+    margin: 13rem auto;
+}
+
+.right-2 {
+    margin: 17rem auto;
+}
+
+.skill {
+    position: absolute;
+    text-align: center;
+    top: 135rem;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+}
+
+.white-text {
+    color: #fff;
+}
+
+table {
+    margin: 100px;
+}
+
+tr, th, td {
+    width: 10%;
+    font-size: 36px;
+    height: 70px;
+    text-align: center;
+
+}
+
+/* error page */
+
+#error-page {
+    display: inline;
+    width: 50%;
+    text-align: center;
+    font-size: 200%;
+    position: fixed;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5x);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0)
+}
