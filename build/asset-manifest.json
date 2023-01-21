@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01af201f.css",
+    "main.js": "/static/js/main.fe643f87.js",
+    "static/media/joel-filipe-unsplash-editted.jpg": "/static/media/joel-filipe-unsplash-editted.89021396d3296e6b7c8d.jpg",
+    "static/media/agustinus.png": "/static/media/agustinus.a97ca816ec00785b40d5.png",
+    "index.html": "/index.html",
+    "main.01af201f.css.map": "/static/css/main.01af201f.css.map",
+    "main.fe643f87.js.map": "/static/js/main.fe643f87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01af201f.css",
+    "static/js/main.fe643f87.js"
+  ]
+}
